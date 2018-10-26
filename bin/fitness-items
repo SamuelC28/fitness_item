@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "Hiiiiiii"
+require_relative '../lib/fitness_item.rb'
+
+FitnessItem::CLI.new.call
